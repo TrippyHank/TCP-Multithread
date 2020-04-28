@@ -72,7 +72,7 @@ int tcp_listen(const char *hostname, const char *servname, socklen_t *addrlen) {
       perror("bind");
       close(sockfd);
     } else {
-      printf(CHECK " Socket successfully binded.\n"); 
+      printf(CHECK " Socket successfully bound.\n"); 
       break;
     }
   } while((res = res->ai_next) != NULL);

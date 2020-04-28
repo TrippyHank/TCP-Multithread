@@ -24,7 +24,7 @@ To run the server, execute `./bin/server`:
 $ ./bin/server
 ✔ Socket successfully created.
 ✔ Socket options have been set.
-✔ Socket successfully binded.
+✔ Socket successfully bound.
 Server is listening on 127.0.0.1:8080..
 ```
 
